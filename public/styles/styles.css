@@ -1,0 +1,40 @@
+body {
+  background: whitesmoke;
+  font-family: 'Roboto Condensed', sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+    
+
+
+.welcome-container{
+  position: fixed;
+  height: 50%;
+  width: 50%;
+  top: 40%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.welcome-header{
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.welcome-header{
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonDiv{
+  margin-top: 1rem;
+}
