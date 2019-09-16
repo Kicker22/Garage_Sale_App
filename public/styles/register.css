@@ -1,0 +1,18 @@
+.form-container{
+    position: fixed;
+    height: 50%;
+    width: 50%;
+    top: 40%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+.register-button{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.btn{
+    margin-right: 2rem;
+}
