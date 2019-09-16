@@ -1,0 +1,28 @@
+.login-button{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.btn{
+    margin-right: 2rem;
+}
+.login-container{
+    position: fixed;
+    height: 50%;
+    width: 50%;
+    top: 40%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.input-container{
+    position: fixed;
+    height: 50%;
+    width: 75%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
