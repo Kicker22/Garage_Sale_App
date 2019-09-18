@@ -14,12 +14,16 @@ main {
 
 .welcome-container{
   position: fixed;
-  height: 50%;
+  height: fit-content;
   width: 50%;
   top: 40%;
   left: 50%;
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
+}
+
+.welcome{
+  margin-bottom: 2rem;
 }
 
 .welcome-header{
@@ -37,4 +41,5 @@ main {
 
 .buttonDiv{
   margin-top: 1rem;
+  
 }
