@@ -1,5 +1,6 @@
 .login-button{
     margin-top: 2rem;
+    margin-bottom: 2rem;
     display: flex;
     flex-direction: row;
 }
@@ -7,9 +8,9 @@
 .btn{
     margin-right: 2rem;
 }
-.login-container{
+.input-container{
     position: fixed;
-    height: 50%;
+    height: fit-content;
     width: 50%;
     top: 40%;
     left: 50%;
@@ -17,7 +18,7 @@
     transform: translate(-50%, -50%);
 }
 
-.input-container{
+/* .input-container{
     position: fixed;
     height: 50%;
     width: 75%;
@@ -25,4 +26,4 @@
     left: 50%;
     transform: translate(-50%, -50%);
 
-}
+} */
